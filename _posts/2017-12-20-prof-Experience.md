@@ -6,6 +6,18 @@ description: "This is a post which shows the details of my professional experien
 
 Below are my main research experiences. The events are ranked in time order.
 
+## APEX Lab
+
+- time: Feb 2018 - July 2018
+- Professor: Weinan Zhang
+- Topic: Looking into the Future Directions: Deep Reinforcement Learning methods on Portfolio Management regard to Actor-Critic Framework
+- Tag: Reinforcement Learning, Portfolio Management, Finance
+- Background: Financial portfolio management is the art and science of making decisions about investment mix and policy, matching investments to objectives, asset allocation for individuals and balancing risk against performance. Based on the foundation of the reinforcement learning framework, the agent, which can adaptively explore the financial market environment without any assumptions  and knowledge on the distribution of the data, is able to manage the portfolio in order to achieve best return at the current time step. However, an intensive observation reveals that, if only concerning about the immediate return at the current time step, it will lead to the result of an unstable trading strategy, thus gaining high transaction cost and slippage in profits.
+- Work:
+  1. We propose an indicator optimization model to achieve better indicators’ performance by integrating stock-wise distinct properties.
+  2. In order to represent stock with different properties, we learn the stock embedding based on the collective behaviors of the fund managers.
+  3. We conduct experiments on real world stock data and evaluate the effectiveness of new indicator optimization approach by practical metrics employed in real investing strategies.
+
 ## Microsoft Research Asia
 
 - time: Nov 2017 - Feb 2018
@@ -14,9 +26,9 @@ Below are my main research experiences. The events are ranked in time order.
 - Tag: Stock Embedding, Finance
 - Background: In this paper, we propose a novel idea to optimize technical indicator with stock-wise properties. In particular, we design a Technical Trading Indicator Optimization(TTIO) framework that manages to optimize the original factor concerning stock’s specific properties. We propose a Skip-gram architecture to learn stock embedding from a valuable knowledge repository formed by fund manager’s collective investment behaviors. Based on the learned stock representation, we further propose to learn a rescaling network to optimize the indicator’s performance.
 - Work:
-  1. We propose an indicator optimization model to achieve better indicators’ performance by integrating stock-wise distinct properties.
-  2. In order to represent stock with different properties, we learn the stock embedding based on the collective behaviors of the fund managers.
-  3. We conduct experiments on real world stock data and evaluate the effectiveness of new indicator optimization approach by practical metrics employed in real investing strategies.
+  1. We propose a enhanced deep reinforcement learning model regard to Actor-Critic framework for portfolio management. The model is designed to obtain a robust trading strategy considering various challenges in financial market.
+  2. A training algorithm based on deterministic policy gradient with the portfolio vector memory is introduced for explorations and maximizing returns.
+  3. We conduct experiments on real world stock data and evaluate the effectiveness of our model framework. Compared with original model-based portfolio management strategies and existing reinforcement learning policies, the experiment results show that our proposed model can significantly improve the performance of the investment.
 
 ## Microsoft Research Asia
 
